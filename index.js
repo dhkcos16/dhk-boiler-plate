@@ -10,7 +10,7 @@ mongoose.connect('mongodb+srv://dhkcos16:J1BKD1XpZmdCtfBS@dhk-boiler-plate.izupe
 
 
 app.get('/', (req, res) => {
-  res.send('Hello World! 안녕하세요')
+  res.send('Hello World! 안녕하세요!')
 })
 
 app.listen(port, () => {
